@@ -5,6 +5,11 @@ Remember to run befor start the app
 npm install
 ```
 
+To run app 
+```
+npm run start
+```
+
 to save a new animal POST with body 
 
 ```

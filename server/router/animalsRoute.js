@@ -14,7 +14,7 @@ appRoutes.get('/animals', (_, res) => {
    
     res.json({
         code: 200,
-        results:  getAnimalList()
+        results: getAnimalList()
     });
 })
 

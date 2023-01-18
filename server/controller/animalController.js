@@ -22,7 +22,7 @@ const saveAnimal = (req) =>   {
 
 const getAnimalList = () => {
     let zoo = new Zoo();
-    zoo.animalList(); 
+    return zoo.animalList(); 
 }
 
 const getAnimalToSpeak = (req) => {

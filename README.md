@@ -31,3 +31,8 @@ curl --location --request POST 'localhost:3000/animal/speak' \
     "specie" : "sneak"
 }'
 ```
+
+To get Animal list
+```
+curl --location --request GET 'localhost:3000/animals'
+```

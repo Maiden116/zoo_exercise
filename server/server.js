@@ -1,5 +1,5 @@
 import express from 'express';
-import {appRoutes} from './router/animalsRoute.js';
+import {appRoutes} from './router/pathRoute.js';
 import bodyParser from 'body-parser';
 
 const app = express()
